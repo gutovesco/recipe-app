@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
 .App {
   min-height: 100vh;
   background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
@@ -13,15 +15,21 @@
   width: 50%;
   border: none;
   padding: 10px;
+  border-radius: 8px;
+  font-family: 'Poppins', sans-serif;
+  outline: none;
 }
 .search-button{
-  background: lightcoral;
+  background-image: linear-gradient(-225deg, #FFE29F 0%, #FFA99F 48%, #FF719A 100%);;
   border: none;
+  border-radius: 8px;
   padding: 10px 20px;
   color: #fff;
+  font-family: 'Poppins', sans-serif;
 }
 .recipes {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  font-family: 'Poppins', sans-serif;
 }
